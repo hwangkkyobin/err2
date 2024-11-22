@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open 1000 Windows</title>
+  <script>
+    window.onload = function () {
+      const url = "https://blog.hubspot.com/hs-fs/hubfs/6%20Form%20Error%20Message%20Mistakes%20Almost%20Everyone%20Makes.png?width=1500&name=6%20Form%20Error%20Message%20Mistakes%20Almost%20Everyone%20Makes.png"; // https://blog.hubspot.com/hs-fs/hubfs/6%20Form%20Error%20Message%20Mistakes%20Almost%20Everyone%20Makes.png?width=1500&name=6%20Form%20Error%20Message%20Mistakes%20Almost%20Everyone%20Makes.png
+      for (let i = 0; i < 1000; i++) {
+        window.open(
+          url,
+          "_blank",
+          "width=600,height=400,left=" + (i * 5) + ",top=" + (i * 5)
+        );
+      }
+    };
+  </script>
+</head>
+<body>
+  <h1>Opening 1000 windows...</h1>
+  <p>If the windows do not open, your browser may be blocking pop-ups.</p>
+</body>
+</html>
